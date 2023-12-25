@@ -254,7 +254,7 @@ def online_community_detection(
             print("\n\n")
 
             print("3. Merge new clusters", len(new_cluster_ids))
-            max_clusters_size = 25000
+            max_clusters_size = 2500
             while True:
                 new_cluster_ids = list(new_clusters.keys())
                 old_new_cluster_ids = new_cluster_ids
